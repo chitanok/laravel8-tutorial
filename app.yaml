@@ -1,0 +1,14 @@
+runtime: php74
+
+runtime_config:
+  document_root: public
+
+env_variables:
+  APP_LOG: errorlog
+  APP_KEY: base64:5B97eIefOYQYFXKPARGfLB1J+GlOG5jUUGAEHXHM/kQ=
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie
+  DB_DATABASE: laravel
+  DB_USERNAME: laravel
+  DB_PASSWORD: laravel@#2020123
+  DB_SOCKET: laravel-app-gcpae:us-west1:gcpa-lara-deploy
