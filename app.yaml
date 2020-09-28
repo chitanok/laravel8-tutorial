@@ -10,5 +10,5 @@ env_variables:
   SESSION_DRIVER: cookie
   DB_DATABASE: laravel
   DB_USERNAME: laravel
-  DB_PASSWORD: laravel@#2020123
+  DB_PASSWORD: 'laravel@#2020123'
   DB_SOCKET: laravel-app-gcpae:us-west1:gcpa-lara-deploy
