@@ -1,0 +1,2 @@
+GET http://localhost:8000/test HTTP/1.1
+Authorization: Bearer sSJ8kbPiSy5aWATvRPMZNGZDR68GVd6NHWabO4Uu
