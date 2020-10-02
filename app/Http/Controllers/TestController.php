@@ -36,7 +36,15 @@ class TestController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if(!$request->user()->tokenCan('create')){
+            return response()->json([
+                'message'=>'Unauthorized action'
+            ]);
+        }
+
+        return response()->json([
+            'message'=>'Ok'
+        ]);
     }
 
     /**
